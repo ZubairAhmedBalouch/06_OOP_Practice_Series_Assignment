@@ -6,8 +6,6 @@
     #D that inherits from both B and C.
     #Create an object of D and call show() to observe MRO.
 
-
-
 class A:
     def show(self):
         print("Class A method called")
