@@ -8,8 +8,7 @@ class Employe:
         
     def get_details(self):
         return f"Employee Name: {self.name}"
-    
-        
+      
 class Department:
     def _init_(self, dept_name, employe):
         self.dept_name = dept_name
